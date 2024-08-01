@@ -234,16 +234,17 @@
 
 .cart-box{
     max-width: 1060px;
-    height: 300px;
+    /* height: 300px; */
     /* border: 2px solid aqua; */
     display: flex;
     margin: 10px auto;
     justify-content: space-between;
+    margin-left: 0px;
 }
 .carts{
     display: flex;
     gap: 30px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 .cart-box .cart1{
     height: 270;
@@ -356,16 +357,34 @@
     font-weight: 400;
     text-align: center;
 }
-.run{
-    border: 2px solid yellowgreen;
-    height: 300px;
-    max-width: 1060px;
-    margin: 10px auto;
-    display: flex;
-    gap: 200px;
-    background-color: rgb(24, 22, 22);
 
+/* carts closed here  */
+
+.run{
+    max-width: 1060px;
+    background-color: #4444443d;
+    height: auto;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    border-radius: 10px;
 }
+
+
+.run-container{
+    max-width: 100%;
+    height: 400px;
+    margin: 10px auto;
+    /* border: 2px solid rgb(218, 5, 247); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-size: cover; */
+}
+
 .words{
     width: 500px;
     height:270px;
@@ -389,14 +408,260 @@
 }
 
 .image img{
-    width: 500px;
+    width: 100%;
     height: 290px;
     margin-top: 5px;
     border-radius: 15px;
 }
+.title{
+    height: 500px;
+    width: 1440px;
+    border: 2px solid white;
+    color: white;
+    margin: 0 auto;
+}
 
 
+/* BMI start here  */
+#three{
+    width:100%;
+    border: 2px solid red;
+    margin: 0 auto;
+    background-color: rgba(34, 34, 34, 1.00);
+    /* display: flex; */
+}
+.form-container{
+ display: flex;
+ justify-content: space-evenly;
+}
 
+.bmi{
+    max-width: 700px;
+    margin: 20px auto;
+    border: 2px solid white;
+}
+.bmi h1{
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+.bmi p{
+    font-size: .9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.cal-one h1{
+    color: white;
+}
+.bmi-table{
+    border: 2px solid white;
+    height: 300px;
+    width: 450px;
+    border-collapse: collapse;
+}
+
+.head th{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    /* margin: 0 auto; */
+    padding: 5px 10px;
+
+}
+tbody td{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.50) ;
+    padding: 5px 10px;
+    
+    margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.50);   
+}
+
+/* form section  */
+.table-two{
+    max-width: 600px;
+    border: 2px solid aqua;
+}
+
+.calculate{
+    max-width: 580px;
+    border: 2px solid red;
+}
+.calculate h2{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.calculate p{
+    color: rgba(255, 255, 255, 0.50);
+}
+
+
+table,td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+#option{
+    background-color: rgba(34, 34, 34, 1.00);
+    color:rgb(179, 171, 171) ;
+    border: none;
+   
+}
+/* imgcontainer start here  */
+
+.team{
+    max-width: 700px;
+    margin: 10px auto;
+    text-align: center;
+
+}
+.team h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.team p{
+    color:rgba(255, 255, 255, 0.50) ;
+    font-size: .9rem;
+    /* margin-bottom: 40px; */
+}
+
+.img-container{
+    max-width: 1060px;
+    margin: 0 auto;
+    gap: 15px;
+    /* display: none; */
+    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.imgbox1{
+  background-image: url(../images/trainer1.png);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 10px 10px;
+  color: white;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.20);
+}
+.paper h3{
+    margin: 0px auto;
+    margin-bottom: 0px;
+}
+.paper p{
+    margin-top: 0px;
+    color:rgba(255, 255, 255, 0.50) ;
+}
+.paper{
+    margin-left: 10px;
+    position: absolute;
+    bottom:10px;
+}
+/* box2 here  */
+
+
+.imgbox2{
+  background-image: url(../images/trainer2.png);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 10px 10px;
+  color: white;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.20);
+}
+
+/* box3 here  */
+
+
+.imgbox3{
+    background-image: url(../images/trainer3.png);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 10px 10px;
+    color: white;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.20);
+}
+
+.imgbox4{
+    background-image: url(../images/trainer4.png);
+    background-position: 20%;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0 10px;
+    color: white;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.20);
+}
+.imgbox5{
+  background-image: url(../images/trainer5.png);
+  width:100%;
+  height: 200px;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 0 10px;
+  color: white;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.20);
+}
+.imgbox6{
+  background-image: url(../images/trainer6.png);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 0 10px;
+  color: white;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.20);
+}
+
+/* boxes closed here  */
+.footer-main{
+    max-width: 1060px;
+    height: 300px;
+    border: 2px solid red;
+}
+
+footer{
+    width: 100%;
+    height: 600px;
+    border: 2px solid red;
+    margin: 100px auto;
+    background-color: rgba(255, 255, 255, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fitness{
+    width: 100%;
+    height: auto;
+}
+.fitness h1{
+    color: red;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 3rem;
+    padding-left: 10px;
+}
+.fitness p{
+    font-size: .9rem;
+    font-weight: 500;
+    color:rgba(255, 255, 255, 0.50) ;
+}
 @media screen and (max-width:576px) {
     .nav-other ul a{
         display: none;
@@ -407,6 +672,8 @@
     }
     .nav-container{
         width: 80%;
+        margin: 0 auto;
+        /* padding-left: 100px; */
     }
    .icon{
     padding-left: 80%;
@@ -432,15 +699,18 @@
     margin: 20px auto;
  } 
  .cart-box{
-    display: flex;
-    flex-direction: column;
-    width: 1060px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* width: 1060px; */
+    width: 520px;
     margin: 0 auto;
-    height: auto;
+    /* height: auto; */
  }
   .carts{
-    margin: 10px auto; 
+    margin: 0px auto; 
     width: 500px;
+    display: flex;
+    flex-direction: column;
   }
   .change-habit{
     width: 100%;
@@ -450,34 +720,37 @@
     margin-bottom: 10px;
     margin-top: 10px;
   } 
-  .cart1{
+.cart1{
     width: 100%;
+    margin: 10px auto;
   }
   .cart2{
-    margin-top: 30px;
+    margin: 10px auto;
     width: 100%;
   }
   .cart3{
-    margin-top: 30px;
+    margin: 10px auto;
     width: 100%;
   }
   .cart4{
-    margin-top: 30px;
+   margin: 10px auto;
     width: 100%;
   }
 
-.run{
+ #two .run{
+    margin: 0 auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
-}
-.words{
+  }
+  .run-container{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: auto;
+  }
 
-}
-.image{
-    width: 100%;
-}
-  
 }
 
 @media screen and (min-width:576px) and (max-width:2200px) {
